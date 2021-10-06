@@ -23,6 +23,9 @@ params:
     - name: rss
       url: https://nafuka.hatenablog.com/
 
+  customCSS:
+    - css/custom.css
+
 menu:
   main:
     - identifier: resume
