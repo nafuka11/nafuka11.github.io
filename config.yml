@@ -9,6 +9,11 @@ params:
     title: nafuka11
     subtitle: "A student at [42Tokyo](https://42tokyo.jp/)."
     imageUrl: /icon.jpg
+    buttons:
+      - name: Resume
+        url: /resume
+      - name: Works
+        url: /works
 
   socialIcons:
     - name: twitter
