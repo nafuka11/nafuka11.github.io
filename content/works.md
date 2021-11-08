@@ -40,6 +40,10 @@ title: "Works"
 
 ## Slides
 
+- C++でコンテナを再実装する課題をざっくり理解する（2021/11）
+
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTqB_Rjpigo9OI2YUV3fXuzyKISMc4m0Y6t25fwNstZbhsn9WRUeeI4zTQFjq30zGGTG78O-JJ_z92/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>{{< /rawhtml >}} 
+
 - 赤黒木を理解する（2021/09）
 
 {{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRHPmtLwfbpXjHCeYR5NbnePezdJg-nR2a4_6iZgAJbyMoxHLbBscHdmcYbM2AP3EC-E7Ii7NEa4x2O/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
