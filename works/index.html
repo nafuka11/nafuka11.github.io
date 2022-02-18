@@ -7,9 +7,9 @@
 <meta name=keywords content>
 <meta name=description content="Tools これまでに作ったツール群。
 42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。
- philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター   Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。
+ philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター (Python3)   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター (ShellScript)   Python製Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。
 昔はC#でゲーム用のツールを作っていました。
- gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するPythonスクリプト   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ">
+ gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript) 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ">
 <meta name=author content>
 <link rel=canonical href=https://nafuka11.github.io/works/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.2d110db250c1a30c8e47f47e8cbd1d5bb210ae63643fbcf6f192ec36af8f8fc4.css integrity="sha256-LRENslDBowyOR/R+jL0dW7IQrmNkP7z28ZLsNq+Pj8Q=" rel="preload stylesheet" as=style>
@@ -28,20 +28,20 @@
 </noscript><meta property="og:title" content="Works">
 <meta property="og:description" content="Tools これまでに作ったツール群。
 42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。
- philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター   Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。
+ philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター (Python3)   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター (ShellScript)   Python製Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。
 昔はC#でゲーム用のツールを作っていました。
- gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するPythonスクリプト   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ">
+ gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript) 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://nafuka11.github.io/works/"><meta property="article:section" content>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Works">
 <meta name=twitter:description content="Tools これまでに作ったツール群。
 42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。
- philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター   Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。
+ philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター (Python3)   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター (ShellScript)   Python製Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。
 昔はC#でゲーム用のツールを作っていました。
- gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するPythonスクリプト   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ">
+ gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript) 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Works","item":"https://nafuka11.github.io/works/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Works","name":"Works","description":"Tools これまでに作ったツール群。\n42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。\n philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター   Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。\n昔はC#でゲーム用のツールを作っていました。\n gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するPythonスクリプト   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ","keywords":[],"articleBody":"Tools これまでに作ったツール群。\n42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。\n philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター   Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。\n昔はC#でゲーム用のツールを作っていました。\n gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するPythonスクリプト   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ","wordCount":"44","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://nafuka11.github.io/works/"},"publisher":{"@type":"Organization","name":"nafuka11.github.io","logo":{"@type":"ImageObject","url":"https://nafuka11.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Works","name":"Works","description":"Tools これまでに作ったツール群。\n42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。\n philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター (Python3)   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター (ShellScript)   Python製Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。\n昔はC#でゲーム用のツールを作っていました。\n gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript) 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ","keywords":[],"articleBody":"Tools これまでに作ったツール群。\n42Tokyo関係のツール テスター、ビジュアライザ、Discord Botを主に作っています。\n philosophers-visualizer（2021/04）  食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)   push_swap_tester（2021/04）  最適なソート方法を考える課題のテスター (Python3)   42_minishell_tester（2021/03）  Bashを再実装する課題のテスター (ShellScript)   Python製Discord Bot（2020/06）  イベント通知機能、ブックマーク機能等 イベント通知機能の一部のみソースコードを公開（ft-webhook-to-discord） 参考：Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines    その他のツール 更新通知や作業を効率化するためのスクリプトをGAS, Pythonで作っていました。\n昔はC#でゲーム用のツールを作っていました。\n gas-asana-task-notifier（2019/07）  タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script   decision-table-to-test-procedure（2018/12）  デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)   グループウェア更新通知スクリプト（2018/06）  グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript) 現在はソースコードを前職社員に譲渡   装備エンチャント検索（2013/05）  Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール 非公開    Slides  C++でコンテナを再実装する課題をざっくり理解する（2021/11）    赤黒木を理解する（2021/09）    Philosophers を理解するためのスライド（2021/04）    push_swap を理解するためのスライド（2021/04）    アセンブリ入門スタックフレーム編（2020/11）   ","wordCount":"52","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://nafuka11.github.io/works/"},"publisher":{"@type":"Organization","name":"nafuka11.github.io","logo":{"@type":"ImageObject","url":"https://nafuka11.github.io/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -84,20 +84,20 @@ Works
 <ul>
 <li><a href=https://github.com/nafuka11/philosophers-visualizer>philosophers-visualizer</a>（2021/04）
 <ul>
-<li>食事する哲学者の問題の課題のビジュアライザ</li>
+<li>食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)</li>
 </ul>
 </li>
 <li><a href=https://github.com/nafuka11/push_swap_tester>push_swap_tester</a>（2021/04）
 <ul>
-<li>最適なソート方法を考える課題のテスター</li>
+<li>最適なソート方法を考える課題のテスター (Python3)</li>
 </ul>
 </li>
 <li><a href=https://github.com/nafuka11/42_minishell_tester>42_minishell_tester</a>（2021/03）
 <ul>
-<li>Bashを再実装する課題のテスター</li>
+<li>Bashを再実装する課題のテスター (ShellScript)</li>
 </ul>
 </li>
-<li>Discord Bot（2020/06）
+<li>Python製Discord Bot（2020/06）
 <ul>
 <li>イベント通知機能、ブックマーク機能等</li>
 <li>イベント通知機能の一部のみソースコードを公開（<a href=https://github.com/nafuka11/ft-webhook-to-discord>ft-webhook-to-discord</a>）</li>
@@ -116,18 +116,18 @@ Works
 </li>
 <li><a href=https://github.com/nafuka11/decision-table-to-test-procedure>decision-table-to-test-procedure</a>（2018/12）
 <ul>
-<li>デシジョンテーブルからテスト手順を標準出力するPythonスクリプト</li>
+<li>デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)</li>
 </ul>
 </li>
 <li>グループウェア更新通知スクリプト（2018/06）
 <ul>
-<li>グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト</li>
+<li>グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript)</li>
 <li>現在はソースコードを前職社員に譲渡</li>
 </ul>
 </li>
 <li>装備エンチャント検索（2013/05）
 <ul>
-<li>Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール</li>
+<li>Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール</li>
 <li>非公開</li>
 </ul>
 </li>
