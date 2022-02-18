@@ -11,12 +11,12 @@ title: "Works"
 テスター、ビジュアライザ、Discord Botを主に作っています。
 
 - [philosophers-visualizer](https://github.com/nafuka11/philosophers-visualizer)（2021/04）
-  - 食事する哲学者の問題の課題のビジュアライザ
+  - 食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)
 - [push_swap_tester](https://github.com/nafuka11/push_swap_tester)（2021/04）
-  - 最適なソート方法を考える課題のテスター
+  - 最適なソート方法を考える課題のテスター (Python3)
 - [42_minishell_tester](https://github.com/nafuka11/42_minishell_tester)（2021/03）
-  - Bashを再実装する課題のテスター
-- Discord Bot（2020/06）
+  - Bashを再実装する課題のテスター (ShellScript)
+- Python製Discord Bot（2020/06）
   - イベント通知機能、ブックマーク機能等
   - イベント通知機能の一部のみソースコードを公開（[ft-webhook-to-discord](https://github.com/nafuka11/ft-webhook-to-discord)）
   - 参考：[Discord Botで42Tokyoの課題を解決しようとした話 - Nafuka Lines](https://nafuka.hatenablog.com/entry/2020/12/04/120837)
@@ -30,12 +30,12 @@ title: "Works"
 - [gas-asana-task-notifier](https://github.com/nafuka11/gas-asana-task-notifier)（2019/07）
   - タスク管理ツールAsanaの完了タスクをSlackに通知するGoogle App Script
 - [decision-table-to-test-procedure](https://github.com/nafuka11/decision-table-to-test-procedure)（2018/12）
-  - デシジョンテーブルからテスト手順を標準出力するPythonスクリプト
+  - デシジョンテーブルからテスト手順を標準出力するスクリプト (Python)
 - グループウェア更新通知スクリプト（2018/06）
-  - グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト
+  - グループウェアの新着メッセージ・ファイルをSlackに通知するスクリプト (TypeScript)
   - 現在はソースコードを前職社員に譲渡
 - 装備エンチャント検索（2013/05）
-  - Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するツール
+  - Windows向けフリーゲームElonaのgzip圧縮されたセーブデータを解凍し、NPCの装備品を検索・表示するC#製GUIツール
   - 非公開
 
 ## Slides
