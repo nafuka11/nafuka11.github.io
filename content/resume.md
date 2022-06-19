@@ -3,11 +3,7 @@ title: "Resume"
 ShowToc: true
 ---
 
-## 個人データ
-
-- Name: nafuka11
-
-## 職務経歴
+## 経歴
 
 ### 2018/02 - 2019/04
 
