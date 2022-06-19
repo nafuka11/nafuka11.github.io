@@ -63,6 +63,10 @@ ShowToc: true
 
 {{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8CvUJPd9QmCR-pnHFMPmPAE0UH_Vyz5eGG7csUlsFQgFCaKs6Y2Z9s7RD4n89noNmg42EFRzla7FP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
 
+- ft_services をざっくり理解するためのスライド（2021/02）
+
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQXBxAY9J7PN3_itv3zDUdcyNM9Th9uUoZQulj-iRj9LOrshNHkQzAvNAV6bmw6A-xs46m8S-u78DG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="279" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
+
 - アセンブリ入門スタックフレーム編（2020/11）
 
 {{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQI4Mw-KtnClm-23c-AuSffph7MGNG8CSjAHdr1mBvg4F3QamNDIpIUASWFCSYK-PAPZO3YQrZOvbPm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
