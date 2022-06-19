@@ -1,6 +1,9 @@
 ---
 title: "Works"
+ShowToc: true
 ---
+
+このページでは、これまでに作成したツール、スライドを紹介します。
 
 ## Tools
 
@@ -10,6 +13,10 @@ title: "Works"
 
 テスター、ビジュアライザ、Discord Botを主に作っています。
 
+- [42tokyo-stats-website](https://github.com/nafuka11/42tokyo-stats-website)（2022/05）
+  - 42Tokyoの統計情報を表示するWebサイト (Next.js + MUI)
+  - 統計情報は毎日 Cloud Functions を使って Cloud Storage に保管しています。
+    - リポジトリ：[42tokyo-stats-data-collector](https://github.com/nafuka11/42tokyo-stats-data-collector)
 - [philosophers-visualizer](https://github.com/nafuka11/philosophers-visualizer)（2021/04）
   - 食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)
 - [push_swap_tester](https://github.com/nafuka11/push_swap_tester)（2021/04）
@@ -42,7 +49,7 @@ title: "Works"
 
 - C++でコンテナを再実装する課題をざっくり理解する（2021/11）
 
-{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTqB_Rjpigo9OI2YUV3fXuzyKISMc4m0Y6t25fwNstZbhsn9WRUeeI4zTQFjq30zGGTG78O-JJ_z92/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>{{< /rawhtml >}} 
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTqB_Rjpigo9OI2YUV3fXuzyKISMc4m0Y6t25fwNstZbhsn9WRUeeI4zTQFjq30zGGTG78O-JJ_z92/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>{{< /rawhtml >}}
 
 - 赤黒木を理解する（2021/09）
 
@@ -54,8 +61,12 @@ title: "Works"
 
 - push_swap を理解するためのスライド（2021/04）
 
-{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8CvUJPd9QmCR-pnHFMPmPAE0UH_Vyz5eGG7csUlsFQgFCaKs6Y2Z9s7RD4n89noNmg42EFRzla7FP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}} 
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8CvUJPd9QmCR-pnHFMPmPAE0UH_Vyz5eGG7csUlsFQgFCaKs6Y2Z9s7RD4n89noNmg42EFRzla7FP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
+
+- ft_services をざっくり理解するためのスライド（2021/02）
+
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQXBxAY9J7PN3_itv3zDUdcyNM9Th9uUoZQulj-iRj9LOrshNHkQzAvNAV6bmw6A-xs46m8S-u78DG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="279" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
 
 - アセンブリ入門スタックフレーム編（2020/11）
 
-{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQI4Mw-KtnClm-23c-AuSffph7MGNG8CSjAHdr1mBvg4F3QamNDIpIUASWFCSYK-PAPZO3YQrZOvbPm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}} 
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQI4Mw-KtnClm-23c-AuSffph7MGNG8CSjAHdr1mBvg4F3QamNDIpIUASWFCSYK-PAPZO3YQrZOvbPm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
