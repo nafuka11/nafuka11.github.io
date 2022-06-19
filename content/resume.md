@@ -48,6 +48,7 @@ ShowToc: true
 - Blog: [Nafuka Lines](https://nafuka.hatenablog.com/)
 - GitHub: [@nafuka11](https://github.com/nafuka11)
 - Qiita: [@nafuka](https://qiita.com/nafuka)
+- Zenn: [@nafuka11](https://zenn.dev/nafuka11)
 - Twitter: [@nafuka11](https://twitter.com/nafuka11)
 - AtCoder: [nafuka11](https://atcoder.jp/users/nafuka11)
 
