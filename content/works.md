@@ -43,7 +43,7 @@ ShowToc: true
 
 - C++でコンテナを再実装する課題をざっくり理解する（2021/11）
 
-{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTqB_Rjpigo9OI2YUV3fXuzyKISMc4m0Y6t25fwNstZbhsn9WRUeeI4zTQFjq30zGGTG78O-JJ_z92/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>{{< /rawhtml >}} 
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTqB_Rjpigo9OI2YUV3fXuzyKISMc4m0Y6t25fwNstZbhsn9WRUeeI4zTQFjq30zGGTG78O-JJ_z92/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>{{< /rawhtml >}}
 
 - 赤黒木を理解する（2021/09）
 
@@ -55,8 +55,8 @@ ShowToc: true
 
 - push_swap を理解するためのスライド（2021/04）
 
-{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8CvUJPd9QmCR-pnHFMPmPAE0UH_Vyz5eGG7csUlsFQgFCaKs6Y2Z9s7RD4n89noNmg42EFRzla7FP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}} 
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8CvUJPd9QmCR-pnHFMPmPAE0UH_Vyz5eGG7csUlsFQgFCaKs6Y2Z9s7RD4n89noNmg42EFRzla7FP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
 
 - アセンブリ入門スタックフレーム編（2020/11）
 
-{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQI4Mw-KtnClm-23c-AuSffph7MGNG8CSjAHdr1mBvg4F3QamNDIpIUASWFCSYK-PAPZO3YQrZOvbPm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}} 
+{{< rawhtml >}} <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQI4Mw-KtnClm-23c-AuSffph7MGNG8CSjAHdr1mBvg4F3QamNDIpIUASWFCSYK-PAPZO3YQrZOvbPm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="400" height="254" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> {{< /rawhtml >}}
