@@ -3,6 +3,8 @@ title: "Works"
 ShowToc: true
 ---
 
+このページでは、これまでに作成したツール、スライドを紹介します。
+
 ## Tools
 
 これまでに作ったツール群。
@@ -11,6 +13,10 @@ ShowToc: true
 
 テスター、ビジュアライザ、Discord Botを主に作っています。
 
+- [42tokyo-stats-website](https://github.com/nafuka11/42tokyo-stats-website)（2022/05）
+  - 42Tokyoの統計情報を表示するWebサイト (Next.js + MUI)
+  - 統計情報は毎日 Cloud Functions を使って Cloud Storage に保管しています。
+    - リポジトリ：[42tokyo-stats-data-collector](https://github.com/nafuka11/42tokyo-stats-data-collector)
 - [philosophers-visualizer](https://github.com/nafuka11/philosophers-visualizer)（2021/04）
   - 食事する哲学者の問題の課題のビジュアライザ (Vue.js + Google Charts)
 - [push_swap_tester](https://github.com/nafuka11/push_swap_tester)（2021/04）
