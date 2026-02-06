@@ -1,0 +1,54 @@
+---
+import "../styles/global.css";
+import SocialLinks from "../components/SocialLinks.astro";
+import Projects from "../components/Projects.astro";
+
+const name = "nafuka11";
+const bio = "Software Engineer / 42 Tokyo Alumni";
+const siteUrl = "https://nafuka11.github.io"; // デプロイ先URLに変更してください
+const description = `${name}'s portfolio`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{name} - Portfolio</title>
+
+    <!-- OGP -->
+    <meta property="og:title" content={`${name} - Portfolio`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteUrl} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${name} - Portfolio`} />
+    <meta name="twitter:description" content={description} />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1>{name}</h1>
+        <p>{bio}</p>
+      </header>
+
+      <section class="section">
+        <h2 class="section-title">Links</h2>
+        <SocialLinks />
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+        <Projects />
+      </section>
+
+      <footer class="footer">
+        <p>&copy; {new Date().getFullYear()} {name}</p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+---
+import { Icon } from "astro-icon/components";
+import { socialLinks } from "../data/links";
+---
+
+<div class="social-links">
+  {
+    socialLinks.map((link) => (
+      <a
+        href={link.url}
+        class="social-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon name={link.icon} />
+        {link.name}
+      </a>
+    ))
+  }
+</div>
