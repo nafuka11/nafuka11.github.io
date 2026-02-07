@@ -6,7 +6,7 @@ import Projects from "../components/Projects.astro";
 const name = "nafuka11";
 const bio = "Software Engineer / 42 Tokyo Alumni";
 const siteUrl = "https://nafuka11.github.io";
-const description = `${name}'s portfolio`;
+const description = bio;
 ---
 
 <!doctype html>
@@ -23,11 +23,13 @@ const description = `${name}'s portfolio`;
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={siteUrl} />
+    <meta property="og:image" content={`${siteUrl}/avatar.jpg`} />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={`${name} - Portfolio`} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${siteUrl}/avatar.jpg`} />
   </head>
   <body>
     <main>
