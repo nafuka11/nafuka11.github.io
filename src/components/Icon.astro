@@ -1,0 +1,18 @@
+---
+import { getIconData, iconToSVG } from "@iconify/utils";
+import icons from "@iconify-json/simple-icons/icons.json";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+const [, iconName] = name.split(":");
+const iconData = getIconData(icons, iconName);
+if (!iconData) {
+  throw new Error(`Icon not found: ${name}`);
+}
+const { attributes, body } = iconToSVG(iconData);
+---
+
+<svg {...attributes} set:html={body} />
